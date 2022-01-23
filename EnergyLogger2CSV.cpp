@@ -68,8 +68,6 @@ int main(int argc, char* argv[])
 								pos += 5;
 								zeit = localtime(&sekunden);
 								// fprintf(outfile, "%02d.%02d.%d %02d:%02d:00, %d, %.1f, %.3f, %.2f\n", zeit->tm_mday, zeit->tm_mon + 1, 1900 + zeit->tm_year, zeit->tm_hour, zeit->tm_min, sekunden, spannung, strom, pf);
-								// VF: trying raw string to no avail
-								// fprintf(outfile, R"(%02d.%02d.%d %02d:%02d:00, %d, %.1f, %.3f, %.2f)", zeit->tm_mday, zeit->tm_mon + 1, 1900 + zeit->tm_year, zeit->tm_hour, zeit->tm_min, sekunden, spannung, strom, pf);
 								//VF: casting time_t to int
 								//VF: why supply seconds (since 1900)?
 								//fprintf(outfile, "%02d.%02d.%d %02d:%02d:00, %d, %.1f, %.3f, %.2f\n", zeit->tm_mday, zeit->tm_mon + 1, 1900 + zeit->tm_year, zeit->tm_hour, zeit->tm_min, static_cast<int>(sekunden), spannung, strom, pf);
