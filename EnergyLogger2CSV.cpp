@@ -34,7 +34,7 @@ int main(int argc, char* argv[])
 					if (outfile)
 					{
 						// column header rows
-						(seconds since 1900 dropped)
+						// (seconds since 1900 dropped)
 						fprintf(outfile, "Datum Zeit, Spannung, Strom, Phi \n");
 						
 						unsigned int pos = 0;
