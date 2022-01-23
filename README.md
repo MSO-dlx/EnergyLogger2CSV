@@ -6,7 +6,7 @@ DEUTSCH darunter
 ####################################################################
 Copies the data of a Voltacraft EnergyLogger 3500 Data.bin file into a Data.csv file or into an Excel file.
 
-Electro-Conrad sells an Energy Logger 3500 plug to monitor and log the power consumption of a device plugged in over time.  However there did not seems to be working analysis tools for the data log to a SD card by minutes (voltage/current/power factor Phi).  The data are recorded in two file types (a) an INFO file of 1k and DATA files of 10k size. The EnergyLogger2CSV.exe copies single DATA files' data into comma separated data files.  The Excel files more comprehensively copies the data of the INFO file as well as the DATA files from a directory into a worksheet and adds a few charts for quick analysis.
+Electro-Conrad sells an Energy Logger 3500 plug to monitor and log the power consumption of a device plugged in over time.  However there did not seem to be working analysis tools for the data log to a SD card by minutes (voltage/current/power factor Phi).  The data are recorded in two file types (a) an INFO file of 1k and DATA files of 10k size. The EnergyLogger2CSV.exe copies single DATA files' data into comma separated data files.  The Excel files more comprehensively copies the data of the INFO file as well as the DATA files from a directory into a worksheet and adds a few charts for quick analysis.
 
 Syntax to use with the .exe:  
 EnergyLogger2CSV.exe SourceData.bin TargetData.csv
