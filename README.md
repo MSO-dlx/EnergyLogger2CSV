@@ -18,6 +18,8 @@ Electro-Conrad sells an Energy Logger 3500/4000 plug to monitor and log the powe
 Syntax to use with the .exe:  
 EnergyLogger2CSV.exe SourceData.bin TargetData.csv
 
+Demo of how to use the Excel converter https://www.youtube.com/watch?v=JtH50k681Eg
+
 ####################################################################
 
 Electro-Conrad verkauft zwar einen Voltcraft Energy Logger 3500/4000 Stecker, mit welchem der Stromverbrauch des eingesteckten Geräts überwacht und protokolliert werden kann. Doch wenn man nun wirklich die aufgezeichneten Daten von der SD-Karte lesen möchte, gab es anscheinend keine fähige Software-Lösung. Die Daten werden in zwei Dateitypen aufgezeichnet: (a) eine INFO-Datei enthält eine Zusammenfassung, wohingegen (b) die DATEN-Dateien enthalten die minütlich aufgezeichneten Werte (Spannung, Strom, Phasenverschiebung). 
@@ -29,3 +31,4 @@ Electro-Conrad verkauft zwar einen Voltcraft Energy Logger 3500/4000 Stecker, mi
 Aufruf zum Auslesen einer .bin-Datei mit der EnergyLogger2CSV.exe-Datei in eine .csv-Datei:  
 EnergyLogger2CSV.exe Quelldaten.bin Zieldaten.csv
 
+Die Excel-Datei im Einsatz hier: https://www.youtube.com/watch?v=ES2wswpYQzQ
