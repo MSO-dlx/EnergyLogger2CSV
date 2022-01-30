@@ -15,7 +15,7 @@ Electro-Conrad sells an Energy Logger 3500/4000 plug to monitor and log the powe
 – This project's EnergyLogger2CSV.exe copies single DATA files' data into comma separated data files.  
 – The Excel files more comprehensively copies the data of the INFO file as well as the DATA files from a directory into a worksheet and adds a few charts for quick analysis.  It also logs the readout process and the data can be written into a .csv file, too. Takes half a minute to write half a year's data into a .csv file or some 10 min to fill into an Excel worksheet.
 
-Syntax to use with the .exe:  
+Command line to use with the .exe:  
 EnergyLogger2CSV.exe SourceData.bin TargetData.csv
 
 Demo of how to use the Excel converter https://www.youtube.com/watch?v=JtH50k681Eg
@@ -28,7 +28,7 @@ Electro-Conrad verkauft zwar einen Voltcraft Energy Logger 3500/4000 Stecker, mi
 
 – Mit der Excel-Datei können dagegen umfassender sowohl die Infodatei als auch die Datendateien eingelesen werden. Für einen schnellen Überblick werden noch ein paar Datendiagramme eingefügt. Es wird ein Ausleseprotokoll angefertigt und die Logger-Daten können auch nur in eine .csv geschrieben werden. Für die Daten eines halben Jahres braucht die Excel-Datei ca. eine halbe Minute, um sie in eine .csv-Datei zu schreiben, ca. 10 Minuten, um eine Excel-Tabelle zu befüllen. 
 
-Aufruf zum Auslesen einer .bin-Datei mit der EnergyLogger2CSV.exe-Datei in eine .csv-Datei:  
+Die Befehlszeile zum Auslesen einer .bin-Datei mit der EnergyLogger2CSV.exe-Datei in eine .csv-Datei:  
 EnergyLogger2CSV.exe Quelldaten.bin Zieldaten.csv
 
 Die Excel-Datei im Einsatz hier: https://www.youtube.com/watch?v=ES2wswpYQzQ
